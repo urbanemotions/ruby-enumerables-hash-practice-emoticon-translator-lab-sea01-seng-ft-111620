@@ -17,7 +17,8 @@ end
 
 def get_english_meaning(path, emoticons)
   load_library(path).each do |key, value|
-    if [key] = 
+    if [value][:japanese] = emoticons 
+    end
   end
   
 end
