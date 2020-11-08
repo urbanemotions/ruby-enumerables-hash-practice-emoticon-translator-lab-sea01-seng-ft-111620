@@ -3,7 +3,8 @@ require 'yaml'
 
 def load_library(path)
   final_path = {}
-  #emoticons_lists = YAML.load_file('/lib/emoticons.yml')
+  YAML.load_file(path) do |key, value|
+  end
   # binding.pry
 end
 
