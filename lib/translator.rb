@@ -2,10 +2,10 @@ require 'pry'
 require 'yaml'
 
 def load_library(path)
-  final_path = {}
+  final_hash = {}
   YAML.load_file(path) do |key, value|
-    
-  end
+    final_hash[key] = {}
+  end 
   # binding.pry
 end
 
