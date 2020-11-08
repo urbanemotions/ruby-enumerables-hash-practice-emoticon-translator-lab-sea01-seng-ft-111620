@@ -21,5 +21,5 @@ def get_english_meaning(path, emoticons)
       return key
     end
   end
-  
+  return ""
 end
